@@ -12,3 +12,10 @@ Cosmetics_CLI
 6. Level 3- Once brand is selected, price and customer review will be listed. 
 7. If they enter 'goodbye' exit application program. 
                         1. 'Makeup is Art. Beauty is Spirit' 
+
+
+    3 Classes: 
+        CLI- controller- what communicates with my user 
+        cosmetics- where objects are created and stored for user display
+        API - bring in external data, consume api here, instantiate my objects 
+        
