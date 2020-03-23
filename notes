@@ -1,0 +1,14 @@
+#API http://makeup-api.herokuapp.com/
+
+Cosmetics_CLI
+
+1. Build Cli 
+2. Welcome user
+3. Prompt user to enter 'makeup review' or enter 'goodbye'  
+4. Level 1-If they enter 'makeup review', print list of product types
+                        1. Blush
+                        2. Bronzer 
+5. Level 2- They can select product types by name to print list of brand?
+6. Level 3- Once brand is selected, price and customer review will be listed. 
+7. If they enter 'goodbye' exit application program. 
+                        1. 'Makeup is Art. Beauty is Spirit' 
