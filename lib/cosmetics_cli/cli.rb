@@ -21,7 +21,4 @@ class CosmeticsCli::CLI
             menu 
         end
     end 
-
-
-
 end
