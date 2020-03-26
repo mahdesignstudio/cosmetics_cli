@@ -11,14 +11,39 @@ class CosmeticsCli::CLI
         input = gets.strip.downcase
         
         if input == "makeup"
-            puts "Let's get started"
-            
+            cosmetics_list
+            menu
         elsif input == "goodbye"
-            puts "remove makeup"
-            
+           goodbye
         else 
-            puts "Invalid entry, please try again"
-            menu 
+           invalid_entry 
         end
+    end 
+
+    def cosmetics_list 
+        puts "1. cosmetic 1"
+        puts "2. cosmetic 2"
+        puts "3. cosmetic 3"
+        puts ""
+        puts ""
+        puts "Which Cosmetic Product would you like detail about:"
+        input = gets.strip.downcase 
+
+        cosmetic_selection(input)
+    end 
+
+    def cosmetic_selection(cosmetic)
+        puts "#{cosmetic}"
+        #go over my cosmetic array, find method to find the cosmetic product
+    end 
+
+    def goodbye
+        puts "Goodbye, and remember Makeup is Art. Beauty is Spirit."
+    end 
+
+
+    def invalid_entry
+        puts "Invalid entry, please try again"
+        menu
     end 
 end
