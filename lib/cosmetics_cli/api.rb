@@ -4,7 +4,7 @@ class API
         url = 'http://makeup-api.herokuapp.com/api/v1/products.json'
         response = HTTParty.get(url)
         response.parsed_response
-
+    end 
 
 
 
