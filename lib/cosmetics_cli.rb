@@ -4,6 +4,7 @@ require_relative './cosmetics_cli/api'
 require_relative './cosmetics_cli/cli'
 require_relative './cosmetics_cli/cosmetics'
 
-
+require 'pry'
+require 'httparty'
 
 
