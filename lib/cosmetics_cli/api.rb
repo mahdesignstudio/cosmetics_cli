@@ -1,11 +1,11 @@
 class API
-    
+    @@all_data = []
     def self.get_data
-        url = 'http://makeup-api.herokuapp.com/api/v1/products.json'
-        response = HTTParty.get(url)
-        response.parsed_response
+        response = HTTParty.get('http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl&product_type')
+
+        binding.pry
+       #response.parsed_response(response)
+       response.map {|hash| hash['product_type']}
+       
     end 
-
-
-
 end 
